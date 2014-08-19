@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="liuqi">
+  <meta name="Keywords" content="navacate_test">
+  <meta name="Description" content="created at 2014/8/19">
+
+  <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <style type="text/css">
+	body{
+		/* padding-top:120px; */
+	}
+  </style>
+  <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+  <title>Navicate_test</title>
+ </head>
+ <body>
+
+  <div class="container">
+  <h3 style="color:red">默认+一个小按钮:</h3>
+	<div class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+	</div>
+  </div>
+
+
+  <div class="container">
+  <h3 style="color:red">堆叠式：</h3>
+	<ul class="nav nav-pills nav-stacked">
+	  <li class="active"><a href="#">Home</a></li>
+	  <li><a href="#">Profile</a></li>
+	  <li><a href="#">Messages</a></li>
+	</ul>
+  </div>
+
+  <div class="container">
+  <h3 style="color:red">自动调整 + disabled :</h3>
+	<ul class="nav nav-pills nav-justified">
+	  <li class="active"><a href="#">Home</a></li>
+	  <li class="disabled"><a href="#">Profile</a></li>
+	  <li><a href="#">Messages</a></li>
+	</ul>
+  </div>
+
+
+  <div class="container">
+  <h3 style="color:red">下拉菜单 + divider :</h3>
+	<ul class="nav nav-tabs">
+	  <li class="dropdown">
+		<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+			Home
+			<span class="caret"></span>
+		</a>
+		<ul class="dropdown-menu" role="menu">
+			<li>tab1</li>
+			<li class="divider"></li>
+			<li>tab2</li>
+			<li class="divider"></li>
+			<li>tab3</li>
+			<li class="divider"></li>
+			<li>tab4</li>
+		</ul>
+	  </li>
+	  <li><a href="#">Profile</a></li>
+	  <li><a href="#">Messages</a></li>
+	</ul>
+  </div>
+
+  <div class="container">
+  <h3 style="color:red">搜索框 + 居右的导航：</h3>
+	<div class="nav navbar">
+		<ul>
+		<form class="navbar-form navbar-left" role="search">
+			<div class="form-group">
+				<input type="text" class="form-control" placeholder="Search">
+			</div>
+			<button type="submit" class="btn btn-default">Submit</button>
+		</form>
+		<div class="nav navbar-nav navbar-right">
+		  <li class="dropdown">
+			<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+				Home
+				<span class="caret"></span>
+			</a>
+			<ul class="dropdown-menu" role="menu">
+				<li>tab1</li>
+				<li class="divider"></li>
+				<li>tab2</li>
+				<li class="divider"></li>
+				<li>tab3</li>
+				<li class="divider"></li>
+				<li>tab4</li>
+			</ul>
+		  </li>
+		</div>
+		</ul>
+	</div>
+  </div>
+
+  <div class="container">
+	<h3 style="color:red">
+	固定导航栏位置(可能遮住其他组件,需要为body标签设置内补（padding）)
+	但是用navbar-static-*就不用写内补了.</h3>
+	<div class="navbar navbar-inverse navbar-static-top" role="navigation">
+		<button class="btn btn-lg btn-success navbar-right">contact me</button>
+		<img class="" src="images/hhe.gif" alt="loading" style="width:200px; height:100px;"/>
+	</div>
+  </div>
+
+  <div class="container">
+	<div></div>
+  </div>
+
+  <div class="container">
+	<h3 style="color:red">给导航条反色</h3>
+	<div class="navbar navbar-inverse" role="navigation">
+		<h1>
+			<span class="label label-success">label</span>
+		</h1>
+	</div>
+  </div>
+
+  <div class="container">
+	<h3 style="color:red">用/形式的导航:</h3>
+	<div class="">
+		<ol class="breadcrumb">
+			<li>home</li>
+		</ol>
+		<ol class="breadcrumb">
+			<li>page0</li>
+			<li>page1</li>
+			<li class="active">page2</li>
+		</ol>
+	</div>
+  </div>
+
+  <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://cdn.bootcss.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+ </body>
+</html>
