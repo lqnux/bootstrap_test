@@ -12,12 +12,21 @@
   <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.2.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 
-  <title>Document</title>
+  <title>MY_Test</title>
  </head>
  <body>
 	<div name="top" class="navbar navbar-inverse navbar-fixed-bottom" role="navigation" align="center">
-		<img src="images/hhe.gif" alt="" />
+		<!-- <img src="images/hhe.gif" alt="" /> -->
 	</div>
+
+	<div>
+		<ul class="nav nav-pills" role="tablist">
+			<li role="presentation" class="active"><a href="#">lookHere<span class="badge">121</span></a></li>
+			<li role="presentation"><a href="#">lookHere</a></li>
+			<li role="presentation"><a href="#">lookHere<span class="badge">121</span></a></li>
+		</ul>
+	</div>
+
 
 	<div name="content" class="">
 		<div name="left" class="">
@@ -31,16 +40,116 @@
 			</ol>
 		</div>
 
-		<div name="right" class="">
+		<div name="right">
 			输入用户名：<input type="text" />
 			输入密码：<input type="password" />
-			<button class="navbar-toggle collapsed">ddddddddd</button>
-		</div>
-	</div>
 
-	<div name="bottom" class="">
-	</div>
+			<div>
+				<hr />
+				<strong style="color:red">都是以btn btn-[lg/sm/xs] btn-X开头:</strong><br />
+				<button class="btn btn-lg btn-default">default</button>
+				<button class="btn btn-lg btn-primary">primary</button>
+				<button class="btn btn-lg btn-success">success</button>
+				<button class="btn btn-lg btn-info">info</button>
+				<button class="btn btn-lg btn-warning">warning</button>
+				<button class="btn btn-lg btn-danger">danger</button>
+				<button class="btn btn-lg btn-link">link</button>
 
+				<button class="btn btn-default">default</button>
+				<button class="btn btn-primary">primary</button>
+				<button class="btn btn-success">success</button>
+				<button class="btn btn-info">info</button>
+				<button class="btn btn-warning">warning</button>
+				<button class="btn btn-danger">danger</button>
+				<button class="btn btn-link">link</button>
+
+				<button class="btn btn-sm btn-default">default</button>
+				<button class="btn btn-sm btn-primary">primary</button>
+				<button class="btn btn-sm btn-success">success</button>
+				<button class="btn btn-sm btn-info">info</button>
+				<button class="btn btn-sm btn-warning">warning</button>
+				<button class="btn btn-sm btn-danger">danger</button>
+				<button class="btn btn-sm btn-link">link</button>
+
+				<button type="button" class="btn btn-xs btn-default">Default</button>
+				<button type="button" class="btn btn-xs btn-primary">Primary</button>
+				<button type="button" class="btn btn-xs btn-success">Success</button>
+				<button type="button" class="btn btn-xs btn-info">Info</button>
+				<button type="button" class="btn btn-xs btn-warning">Warning</button>
+				<button type="button" class="btn btn-xs btn-danger">Danger</button>
+				<button type="button" class="btn btn-xs btn-link">Link</button>
+			</div>
+
+<!-- ////////////////////////////////////////////////////////////// -->
+
+			<div class="col-md-6">
+				<hr />
+				<strong style="color:red">div容器都是以col-md-x为格式，table的类就是[table] [table-striped] [table-bordered] [table-condensed]:</strong><br />
+
+				<table class="table table-striped">
+					<thead><tr><th>hhhha</th><th>hhhha</th></tr></thead>
+					<tbody>
+						<tr>
+							<td>table-striped</td>
+							<td>table-striped</td>
+						</tr>
+						<tr>
+							<td>table-striped</td>
+							<td>table-striped</td>
+						</tr>
+					</tbody>
+				</table>
+
+				<table class="table table-bordered">
+					<thead><tr><th>hhhha</th><th>hhhha</th></tr></thead>
+					<tbody>
+						<tr>
+							<td>table-bordered</td>
+							<td>table-bordered</td>
+						</tr>
+						<tr>
+							<td>table-bordered</td>
+							<td>table-bordered</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+<!-- ////////////////////////////////////////////////////////////// -->
+			<hr />
+			<strong style="color:red">给span加上label的类就行了</strong><br />
+			<h1>
+				<span class="label label-default">Default</span>
+				<span class="label label-primary">Primary</span>
+				<span class="label label-success">Success</span>
+				<span class="label label-info">Info</span>
+				<span class="label label-warning">Warning</span>
+				<span class="label label-danger">Danger</span>
+			</h1>
+
+			<h2>
+				<span class="label label-default">Default</span>
+				<span class="label label-primary">Primary</span>
+				<span class="label label-success">Success</span>
+				<span class="label label-info">Info</span>
+				<span class="label label-warning">Warning</span>
+				<span class="label label-danger">Danger</span>
+			</h2>
+
+		</div><!-- divright end -->
+	</div><!-- div content end -->
+
+	<p>dropdown menus:<span class="dropdown">menu</span></p>
+	<div class="dropdown theme-dropdown clearfix">
+		<a id="dropdownMenu1" href="#" role="button" class="sr-only dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+		<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+			<li class="active" role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
+			<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
+			<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+			<li role="presentation" class="divider"></li>
+			<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
+		</ul>
+	</div>
 
   <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
   <script src="http://cdn.bootcss.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
