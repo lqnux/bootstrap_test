@@ -1,0 +1,333 @@
+#TITLE=HTML
+; EditPlus Auto-completion File v1.0 written by ES-Computing.
+; This file is intended to be used by HTML Toolbar of EditPlus.
+; <WARNING>
+; This file is required for EditPlus to run correctly.
+; You can modify only the content of each entry.
+; Do not add/remove any entry.
+; Do not modify title of each entry.
+
+;下面的是给EditPlus加的(或者修改的)bootstrap扩展 2014/8/20 11:13
+#CASE=n
+
+#T=B
+<strong>^!</strong>
+#T=I
+<em>^!</em>
+#T=U
+<u>^!</u>
+#T=H1
+<h1>^!</h1>
+#T=H2
+<h2>^!</h2>
+#T=H3
+<h3>^!</h3>
+#T=H4
+<h4>^!</h4>
+#T=H5
+<h5>^!</h5>
+#T=H6
+<h6>^!</h6>
+#T=BR
+<br>
+#T=P
+<p>^!</p>
+#T=nb
+&nbsp;
+#T=A
+<a class="" href="">^!</a>
+#T=HR
+<hr>
+#T=IMG
+<img src="" width="" height="" border="0" alt="^!">
+#T=CENTER
+<center>^!</center>
+#T=BLOCKQUOTE
+<blockquote>^!</blockquote>
+#T=PRE
+<pre>^!</pre>
+#T=<!
+<!-- ^! -->
+#T=UL
+<ul>
+	<li>^!</li>
+	<li></li>
+</ul>
+#T=OL
+<ol>
+	<li>^!</li>
+	<li></li>
+</ol>
+#T=DL
+<dl>
+	<dt>^!</dt>
+	<dd></dd>
+</dl>
+#T=FORM
+<form method="post" action="">
+	^!
+</form>
+#T=FRAME
+<frameset rows="^!," cols=",">
+	<frame src="" name="">
+	<frame src="" name="">
+</frameset>
+#T=MAP
+<map name="^!">
+	<area shape="" href="" coords="" alt="">
+</map>
+#T=SCRIPT
+<script type="text/javascript">
+<!--
+	^!
+//-->
+</script>
+#T=APPLET
+<applet code="^!" width="" height="">
+</applet>
+#T=TEXT
+<input type="text" name="^!">
+#T=SELECT
+<select name="">
+	<option value="" selected>^!
+	<option value="">
+</select>
+#T=RADIO
+<input type="radio" name="^!">
+#T=CHECKBOX
+<input type="checkbox" name="^!">
+#T=TEXTAREA
+<textarea name="" rows="" cols="">^!</textarea>
+#T=RESET
+<input type="reset">
+#T=SUBMIT
+<input type="submit">
+#T=PASSWORD
+<input type="password" name="^!">
+#T=HIDDEN
+<input type="hidden" name="^!">
+#T=FORMIMAGE
+<input type="image" src="^!">
+#T=BUTTON
+<input type="button" value="^!" onclick="">
+#T=FONT
+<font size="" color="">^!</font>
+#T=TABLE
+<table>
+
+#T=TABLE2
+</table>
+#T=TR
+<tr>
+
+#T=TR2
+</tr>
+
+#T=TD
+	<td>^!</td>
+
+#T=TD2
+	<td></td>
+
+#T=OBJECT
+<object id="%s" width="^!" height="" classid="clsid:%s">
+</object>
+#T=STYLE
+<style type="text/css">
+	^!
+</style>
+
+
+#T=SPAN
+<span class="">^!</span>
+#T=DIV
+<div class="^!">
+	
+</div>
+#T=thumbnail
+<a href="#" class="thumbnail">^!</a>
+#T=row
+<div id="" class="col-xs-6 col-md-3">^!</div>
+#T=hred
+<h3 style="color:red">^!</h3>
+#T=alert-success
+<div class="alert alert-success">^!</div>
+#T=alert-info
+<div class="alert alert-info">^!</div>
+#T=alert-warning
+<div class="alert alert-warning">^!</div>
+#T=alert-danger
+<div class="alert alert-danger">^!</div>
+#T=btn-default
+<!--
+1.都是以btn btn-[lg/sm/xs] btn-X开头;
+2.利用.btn-group(也有btn-group-lg/sm/xs等级别)对button分组,justified调整;
+3.利用.btn-toolbar组合为一个工具栏;
+4.利用.btn-group-vertical可以竖排.
+5.利用.dropup可以向上弹出菜单
+-->
+<button class="btn btn-lg btn-default>^!</button>
+#T=btn-primary
+<button class="btn btn-lg btn-primary>^!</button>
+#T=btn-success
+<button class="btn btn-lg btn-success>^!</button>
+#T=btn-info
+<button class="btn btn-lg btn-info>^!</button>
+#T=btn-warning
+<button class="btn btn-lg btn-warning>^!</button>
+#T=btn-link
+<button class="btn btn-lg btn-link>^!</button>
+#T=button-group
+<div class="btn-group">
+  <button type="button" class="btn btn-danger">Action</button>
+  <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
+    <span class="caret"></span>
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+  <ul class="dropdown-menu" role="menu">
+    <li><a href="#">Action</a></li>
+    <li><a href="#">Another action</a></li>
+    <li><a href="#">Something else here</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Separated link</a></li>
+  </ul>
+</div>
+#T=dropup
+<div class="btn-group dropup">
+  <button type="button" class="btn btn-default">Dropup</button>
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+    <span class="caret"></span>
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+  <ul class="dropdown-menu">
+    <!-- Dropdown menu links -->
+  </ul>
+</div>
+#T=divider
+<li class="divider"></li>
+#T=badge
+<li role="presentation"><a href="#">lookHere^!<span class="badge">121</span></a></li>
+#T=navbar
+<div class="navbar navbar-inverse navbar-static-top" role="navigation">^!</div>
+#T=label-default
+<span class="label label-default">^!</span>
+#T=label-primary
+<span class="label label-primary">^!</span>
+#T=label-success
+<span class="label label-success">^!</span>
+#T=label-info
+<span class="label lable-info">^!</span>
+#T=label-warning
+<span class="label label-warning">^!</span>
+#T=label-danger
+<span class="label label-danger">^!</span>
+#T=table-striped
+<table class="table table-striped">
+	<thead><tr><th>hhhha</th><th>hhhha</th></tr></thead>
+	<tbody>
+		<tr>
+			<td>table-striped</td>
+			<td>table-striped</td>
+		</tr>
+		<tr>
+			<td>table-striped</td>
+			<td>table-striped</td>
+		</tr>
+	</tbody>
+</table>
+#T=table-bordered
+<table class="table table-bordered">
+	<thead><tr><th>hhhha</th><th>hhhha</th></tr></thead>
+	<tbody>
+		<tr>
+			<td>table-bordered</td>
+			<td>table-bordered</td>
+		</tr>
+		<tr>
+			<td>table-bordered</td>
+			<td>table-bordered</td>
+		</tr>
+	</tbody>
+</table>
+#T=progress
+<!--
+1.给process类后面再加上progress-striped这个类,就成了带有条纹的样式了.IE8不支持这个;
+2.再给.progress-striped加上.active就能使它由右向左运动。在IE的所有版本不可用.
+3.把多个进度条放入同一个.progress容器,就能使它们堆叠。
+-->
+<div class="progress">
+  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+    <span class="sr-only">60% Complete</span>
+  </div>
+  <div class="progress-bar"></div>
+</div>
+#T=progress-bar-success
+<div class="progress">
+  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+    <span class="sr-only">60% Complete</span>
+  </div>
+</div>
+#T=progress-bar-info
+<div class="progress">
+  <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+    <span class="sr-only">60% Complete</span>
+  </div>
+</div>
+#T=progress-bar-warning
+<div class="progress">
+  <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+    <span class="sr-only">60% Complete</span>
+  </div>
+</div>
+#T=progress-bar-danger
+<div class="progress">
+  <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+    <span class="sr-only">60% Complete</span>
+  </div>
+</div>
+#T=breadcrumb
+<div class="">
+	<ol class="breadcrumb">
+		<li>home</li>
+	</ol>
+	<ol class="breadcrumb">
+		<li>page0</li>
+		<li>page1</li>
+		<li class="active">page2</li>
+	</ol>
+</div>
+#T=list-group
+<ul class="list-group">
+  <li class="list-group-item active"><span class="badge">20</span>Cras justo odio</li>
+  <li class="list-group-item">Dapibus ac facilisis in</li>
+  <li class="list-group-item">Morbi leo risus</li>
+  <li class="list-group-item">Porta ac consectetur ac</li>
+  <li class="list-group-item">Vestibulum at eros</li>
+</ul>
+#T=panel
+<div class="container">
+	<!-- 还可以加入相应的panel-primary等样式 -->
+	<div class="panel panel-default">
+		<div class="panel panel-heading">
+			heading
+		</div>
+		<div class="panel-title">
+			title
+		</div>
+		<div class="panel-body">
+			<p>hhhhhhhhhhha</p>
+			<div class="panel panel-success">success</div>
+		</div>
+		<div class="panel-footer">
+			footer
+		</div>
+	</div>
+</div>
+#T=well
+<div class="container">
+<!-- 可以加其他类比如:well-lg/sm -->
+	<div class="well">
+		well?你看我嵌入了吗?
+	</div>
+</div>
+#
